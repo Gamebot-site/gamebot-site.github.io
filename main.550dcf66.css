@@ -2691,9 +2691,8 @@ textarea.input-lg {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+        transition: .2s
 }
-
-.btn {transition: .2s;}
 .btn:hover { color:#f923ef!important; border-radius:1em;background-color:white!important;}
 .btn.active.focus,
 .btn.active:focus,
@@ -2707,11 +2706,6 @@ textarea.input-lg {
 
 .btn.focus,
 .btn:focus,
-.btn:hover {
-	color: #fff;
-	text-decoration: none
-}
-
 .btn.active,
 .btn:active {
 	outline: 0;
