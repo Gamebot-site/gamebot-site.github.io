@@ -2690,11 +2690,10 @@ textarea.input-lg {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	user-select: none
+	user-select: none;
         transition: .2s;
 }
 .btn:hover { color:#f923ef!important; border-radius:1em;background-color:white!important;}
-
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
