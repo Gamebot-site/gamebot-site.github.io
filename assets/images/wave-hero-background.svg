@@ -14,8 +14,8 @@
 			<path id="Wave" class="st0" d="M344,147h1300c-0.2,99.1-0.2,259,0,479.9c-360.6,42.3-321.1-40.2-650-29s-343.4,60.2-650,0
 				C345,474.5,345,324.2,344,147z"/>
 			<radialGradient id="Wave_2_" cx="995.5004" cy="379.8289" r="488.5484" gradientUnits="userSpaceOnUse">
-				<stop  offset="0" style="stop-color:#E962F4"/>
-				<stop  offset="1" style="stop-color:#FF0DEE"/>
+				<stop  offset="0" style="stop-color:#d959e3"/>
+				<stop  offset="1" style="stop-color:#eb09db"/>
 			</radialGradient>
 			<path id="Wave_1_" class="st1" d="M1646,147H721.3H345c0,224,0,366.8,0,428.7c80.4-11.9,154.2-29.3,343.7-11.9
 				c189.5,17.4,256.5,87,532,21c183.7-44,325.4-40.8,425.3,9.7V147z"/>
