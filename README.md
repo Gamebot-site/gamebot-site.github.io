@@ -1,1 +1,1 @@
-# https://gamebot.gamebot-site.vercel.app/
+# https://gamebot-site.github.io/
