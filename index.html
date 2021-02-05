@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
@@ -15,7 +16,7 @@
   <meta name="msapplication-tap-highlight" content="no">
   <link href="./assets/images/favicon.ico" rel="icon">
   <title>Gamebot - The Best Krunker Bot</title>
-  <link href="./assets/css/main_minified.v1.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/main_minified.css" rel="stylesheet" type="text/css">
 
 <body>
   <!-- Add your content of header -->
@@ -38,7 +39,9 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#main_intro">Home</a></li>
-            <li><a href="./patreon.html" target="_blank">Patreon</a></li>
+            <li><a
+                href="https://www.patreon.com/bePatron?u=38156451"
+                target="_blank">Patreon</a></li>
             <li>
               <div>
                 <a href="https://discord.com/api/oauth2/authorize?client_id=717416553099952219&permissions=129088&scope=bot"
@@ -53,20 +56,20 @@
   </header>
   <!-- Add your site or app content here -->
   <a id="main_intro"></a>
-    <div class="hero-full-container background-image-container white-text-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1>GameBot</h1>
-            <p>VIEW STATS, MAPS, PROFILES, AND MORE FOR KRUNKER</p>
-            <br>
-            <div
-              onclick="document.getElementById('description').scrollIntoView({behavior: 'smooth', block: 'center', inline: 'center'});"
-              class="btn btn-default btn-lg" title="" type="button">Show me more</div>
-          </div>
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>GameBot</h1>
+          <p>VIEW STATS, MAPS, PROFILES, AND MORE FOR KRUNKER</p>
+          <br>
+          <div
+            onclick="document.getElementById('description').scrollIntoView({behavior: 'smooth', block: 'center', inline: 'center'});"
+            class="btn btn-default btn-lg" title="" type="button">Show me more</div>
         </div>
       </div>
     </div>
+  </div>
   <div class="section-container">
     <div class="container">
       <div class="row">
@@ -252,7 +255,7 @@
          </script>
          
          -->
-  <script type="text/javascript" src="./assets/js/main.v1.js"></script>
+  <script type="text/javascript" src="./assets/js/minified.main.js"></script>
   <script>
     window.smoothScroll = function (target) {
       var scrollContainer = target;
