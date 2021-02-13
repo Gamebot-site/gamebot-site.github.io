@@ -11,8 +11,8 @@
 	<g id="wave_footer">
 		
 			<radialGradient id="Image-Hero-Copy_1_" cx="688.9818" cy="791.9011" r="2.2565" gradientTransform="matrix(-213.1237 35.1302 -35.1301 -213.1241 175645.9531 144966.1094)" gradientUnits="userSpaceOnUse">
-			<stop  offset="0" style="stop-color:#C400FF"/>
-			<stop  offset="1" style="stop-color:#D334F0"/>
+			<stop  offset="0" style="stop-color:#26b56b"/>
+			<stop  offset="1" style="stop-color:#1cbd69"/>
 		</radialGradient>
 		<path id="Image-Hero-Copy" class="st0" d="M341,505h1294V289c-215.5,10-431,14.9-646.5,14.9S557.2,299,341,289V505z"/>
 	</g>
