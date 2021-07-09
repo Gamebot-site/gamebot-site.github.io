@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  <link href="./images/favicon.ico" rel="icon">
+  <link href="" rel="stylesheet">
+  <title>Gamebot - The Best Krunker Bot</title>
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Add your content of header -->
+  <header>
+    <nav class="navbar navbar-default active">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://discord.com/invite/aMqWWTunrJ" target="_blank">
+            <img src="./images/gbot-5050.svg" class="navbar-logo-img" alt="">GameBot</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./patreon.html" target="_blank">Patreon</a></li>
+            <li>
+              <p>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=717416553099952219&permissions=129088&scope=bot"
+                  class="btn btn-default navbar-btn" target="_blank">Add to Discord</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>404</h1>
+          <p>The page you are looking for doesn't exist</p>
+          <br>
+          <div onclick="location.href = 'https://gamebot-site.github.io/';" class="btn btn-default btn-lg"
+            type="button">Home</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navbarFixedTopAnimation();
+    });
+  </script>
+  <footer class="footer-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Gamebot</h3>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <p><small>A bot by BlackThunder</small>
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+              <p class="text-right">
+                <a href="https://www.patreon.com/bePatron?u=38156451" data-patreon-widget-type="become-patron-button"
+                  target="_blank">Become a Patron!</a>
+                <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+                <br>
+                <a href="https://discord.com/invite/aMqWWTunrJ" target="_blank"><i
+                    class="fab fa-discord"></i>&nbsp;&nbsp;Support&nbsp;&nbsp;Server &nbsp; &nbsp;</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navActivePage();
+      scrollRevelation('.reveal');
+    });
+  </script>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+         <script>
+           (function (i, s, o, g, r, a, m) {
+             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+               (i[r].q = i[r].q || []).push(arguments)
+             }, i[r].l = 1 * new Date(); a = s.createElement(o),
+               m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+           })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+           ga('create', 'UA-XXXXX-X', 'auto');
+           ga('send', 'pageview');
+         </script>
+         
+         -->
+  <script type="text/javascript" src="./js/minified.main.js"></script>
+  <script>
+    window.smoothScroll = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 100;
+      do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      // start scrolling
+      scroll(scrollContainer, scrollContainer.scrollTop - 100, targetY, 0);
+    }
+  </script>
+</body>
+
+</html>
