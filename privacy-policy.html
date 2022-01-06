@@ -18,7 +18,6 @@
   <link href="main.css" rel="stylesheet" type="text/css">
 
 <body>
-  <!-- Add your content of header -->
   <header>
     <nav class="navbar navbar-default active">
       <div class="container">
@@ -51,7 +50,6 @@
       </div>
     </nav>
   </header>
-  <!-- Add your site or app content here -->
   <a id="home"></a>
   <div class="hero-full-container background-image-container white-text-container">
     <div class="container">
@@ -60,13 +58,13 @@
           <h1>Privacy Policy</h1>
           <br>
           <div
-            onclick="document.getElementById('description').scrollIntoView({behavior: 'smooth', block: 'center', inline: 'center'});"
+            onclick="document.getElementById('main-content').scrollIntoView({behavior: 'smooth', block: 'center', inline: 'center'});"
             class="btn btn-default btn-lg" title="" type="button">View</div>
         </div>
       </div>
     </div>
   </div>
-  <div class="section-container">
+  <div class="section-container" id="main-content">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-offset-2">
@@ -108,8 +106,8 @@
                   data-patreon-widget-type="become-patron-button">Become a Patron!</a>
                 <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
                 <br>
-                <a target="_blank" href="https://discord.com/invite/aMqWWTunrJ"><i
-                    class="fab fa-discord"></i>&nbsp;Support Server
+                <a target="_blank" href="https://discord.com/invite/aMqWWTunrJ" style="margin-right: 0.9em;">
+                  <i class="fab fa-discord"></i>&nbsp;Support Server
                 </a>
               </p>
             </div>
