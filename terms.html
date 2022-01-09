@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta content="Gamebot - Terms and Conditions" property="og:title">
+  <meta content="View the Terms and Conditions of Gamebot" property="og:description">
+  <meta content="https://gamebot-site.github.io/" property="og:url">
+  <meta content="https://cdn.discordapp.com/avatars/717416553099952219/fe82356c51996ae9f2b676bf46744f29.png" property="og:image">
+  <meta content="#4be394" data-react-helmet="true" name="theme-color">
+  <meta name="msapplication-tap-highlight" content="no">
+  <link href="./images/favicon.ico" rel="icon">
+  <title>Gamebot - Terms and Conditions</title>
+  <link href="main.css" rel="stylesheet" type="text/css">
+
+<body>
+  <header>
+    <nav class="navbar navbar-default active">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://discord.com/invite/aMqWWTunrJ" target="_blank">
+            <img src="./images/gbot-5050.png" class="navbar-logo-img" alt="GameBot Logo">
+            GameBot
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://gamebot-site.github.io/">Home</a></li>
+            <li><a href="https://www.patreon.com/bePatron?u=38156451" target="_blank">Patreon</a></li>
+            <li>
+              <div>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=717416553099952219&permissions=387136&scope=bot%20applications.commands"
+                  target="_blank" class="btn btn-default navbar-btn add-btn">
+                  Add to Discord </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <a id="home"></a>
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Terms and Conditions</h1>
+          <br>
+          <div
+            onclick="document.getElementById('main-content').scrollIntoView({behavior: 'smooth', block: 'center', inline: 'center'});"
+            class="btn btn-default btn-lg" title="" type="button">View</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-container" id="main-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <p>Terms of service (wip)
+</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navbarFixedTopAnimation();
+    });
+  </script>
+  <footer class="footer-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>GameBot</h3>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <p>
+                <small>Bot Developed by BlackThunder#4007</small>
+                <br>
+                <small>Website Contributer - Jordon#0001</small>
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+              <p class="text-right">
+                <a href="https://www.patreon.com/bePatron?u=38156451"
+                  data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+                <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+                <br>
+                <a target="_blank" href="https://discord.com/invite/aMqWWTunrJ" style="margin-right: 0.9em;">
+                  <i class="fab fa-discord"></i>&nbsp;Support Server
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navActivePage();
+      scrollRevelation('.reveal');
+    });
+  </script>
+  <script type="text/javascript" src="./js/minified.main.js"></script>
+  <script>
+    window.smoothScroll = function (target) {
+      var scrollContainer = target;
+      do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 100;
+      do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function (c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () { scroll(c, a, b, i); }, 20);
+      }
+      scroll(scrollContainer, scrollContainer.scrollTop - 100, targetY, 0);
+    }
+  </script>
+</body>
+
+</html>
